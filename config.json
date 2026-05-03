@@ -1,0 +1,5 @@
+{
+  "output_dir": "./output",
+  "top_k": 5,
+  "domain": "Academic Network Analysis"
+}
