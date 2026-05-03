@@ -165,7 +165,7 @@ def extract_recommendations(
                     authors=paper.authors if paper else (),
                     categories=paper.categories if paper else (),
                     score=score,
-                    rationale="".strip(),
+                    rationale=str(row.get("why") or row.get("reason") or row.get("notes") or "").strip(),
                 )
             )
     return sorted(recommendations, key=lambda item: item.score, reverse=True)[:top_n]
