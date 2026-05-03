@@ -4,7 +4,7 @@ from __future__ import annotations
 import json
 import os
 from datetime import datetime
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Tuple
 
 import matplotlib
 import networkx as nx
@@ -177,7 +177,7 @@ def _rank_recommendations(merged_data: Dict[str, Any], top_k: int) -> List[Dict[
 
 def generate_report(
     merged_data: Dict[str, Any], config: Dict[str, Any] = DEFAULT_CONFIG
-) -> tuple[str, List[Dict[str, Any]]]:
+) -> Tuple[str, List[Dict[str, Any]]]:
     output_dir = config.get("output_dir", "./output")
     top_k = int(config.get("top_k", 5))
     os.makedirs(output_dir, exist_ok=True)
