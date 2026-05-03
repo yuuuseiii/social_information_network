@@ -1,0 +1,50 @@
+{
+  "run_id": "2026-05-02_daily",
+  "emerging_communities": [
+    {
+      "community_id": "C0",
+      "size": 3,
+      "top_categories": [
+        {"category": "cs.RO", "count": 2},
+        {"category": "cs.AI", "count": 1}
+      ],
+      "representative_papers": ["2605.00001", "2605.00004", "2605.00005"],
+      "avg_published_at": "2026-05-02"
+    },
+    {
+      "community_id": "C1",
+      "size": 2,
+      "top_categories": [
+        {"category": "cs.LG", "count": 1},
+        {"category": "q-bio.BM", "count": 1}
+      ],
+      "representative_papers": ["2605.00002", "2605.00006"],
+      "avg_published_at": "2026-05-02"
+    }
+  ],
+  "paper_sim_edges": [
+    {"source": "2605.00001", "target": "2605.00004", "weight": 0.81},
+    {"source": "2605.00002", "target": "2605.00006", "weight": 0.88}
+  ],
+  "centrality": {
+    "paper_similarity": {
+      "pagerank": {
+        "2605.00001": 0.21,
+        "2605.00002": 0.18,
+        "2605.00004": 0.19,
+        "2605.00005": 0.12,
+        "2605.00006": 0.15
+      }
+    }
+  },
+  "top_bridges": [
+    {
+      "name_norm": "alice chen",
+      "bridging_score": 0.31,
+      "betweenness": 0.42,
+      "cross_community_edge_ratio": 0.6,
+      "representative_papers": ["2605.00001", "2605.00002"]
+    }
+  ],
+  "warnings": []
+}

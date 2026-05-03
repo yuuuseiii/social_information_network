@@ -1,0 +1,59 @@
+{
+  "run_id": "2026-05-02_daily",
+  "papers_metadata": [
+    {
+      "paper_id": "p1",
+      "arxiv_id": "2605.00001",
+      "title": "Embodied Navigation with World Models",
+      "abstract": "World models for embodied navigation in complex indoor scenes.",
+      "authors": ["A. Chen", "B. Li"],
+      "categories": ["cs.RO", "cs.AI"],
+      "published_at": "2026-05-02"
+    },
+    {
+      "paper_id": "p2",
+      "arxiv_id": "2605.00002",
+      "title": "Graph Diffusion for Protein Design",
+      "abstract": "Diffusion models for protein structure generation.",
+      "authors": ["C. Kim"],
+      "categories": ["cs.LG", "q-bio.BM"],
+      "published_at": "2026-05-02"
+    },
+    {
+      "paper_id": "p3",
+      "arxiv_id": "2605.00003",
+      "title": "Agentic Planning at Scale",
+      "abstract": "Agent planning systems with long-horizon reasoning.",
+      "authors": ["D. Gomez"],
+      "categories": ["cs.AI"],
+      "published_at": "2026-05-01"
+    },
+    {
+      "paper_id": "p4",
+      "arxiv_id": "2605.00004",
+      "title": "Cross-domain Robotics",
+      "abstract": "Robotics systems that generalize across domains.",
+      "authors": ["E. Patel", "B. Li"],
+      "categories": ["cs.RO", "cs.AI"],
+      "published_at": "2026-05-02"
+    },
+    {
+      "paper_id": "p5",
+      "arxiv_id": "2605.00005",
+      "title": "Vision-Language Mapping",
+      "abstract": "Mapping language to visual navigation goals.",
+      "authors": ["F. Wang"],
+      "categories": ["cs.CV", "cs.RO"],
+      "published_at": "2026-05-02"
+    },
+    {
+      "paper_id": "p6",
+      "arxiv_id": "2605.00006",
+      "title": "Molecular Representation Learning",
+      "abstract": "Representation learning over molecular graphs.",
+      "authors": ["G. Singh"],
+      "categories": ["q-bio.BM", "cs.LG"],
+      "published_at": "2026-05-01"
+    }
+  ]
+}
