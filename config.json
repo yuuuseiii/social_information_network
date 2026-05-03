@@ -1,0 +1,5 @@
+{
+  "output_dir": "./output",
+  "figures_dir": "./output/figures",
+  "top_k": 5
+}
