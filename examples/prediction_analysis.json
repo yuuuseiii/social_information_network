@@ -1,0 +1,77 @@
+{
+  "run_id": "2026-05-02_daily",
+  "forecast_horizon_days": 14,
+  "community_forecasts": [
+    {
+      "community_id": "C0",
+      "future_attention_score": 0.72,
+      "predicted_growth_probability": 0.65,
+      "opportunity_score": 0.7
+    },
+    {
+      "community_id": "C1",
+      "future_attention_score": 0.69,
+      "predicted_growth_probability": 0.58,
+      "opportunity_score": 0.66
+    }
+  ],
+  "paper_forecasts": [
+    {
+      "paper_id": "p1",
+      "arxiv_id": "2605.00001",
+      "title": "Embodied Navigation with World Models",
+      "near_term_attention_score": 0.78,
+      "recommendation_score": 0.82,
+      "confidence": 0.64
+    },
+    {
+      "paper_id": "p2",
+      "arxiv_id": "2605.00002",
+      "title": "Graph Diffusion for Protein Design",
+      "near_term_attention_score": 0.74,
+      "recommendation_score": 0.79,
+      "confidence": 0.62
+    },
+    {
+      "paper_id": "p4",
+      "arxiv_id": "2605.00004",
+      "title": "Cross-domain Robotics",
+      "near_term_attention_score": 0.7,
+      "recommendation_score": 0.76,
+      "confidence": 0.6
+    }
+  ],
+  "user_recommendations": [
+    {
+      "target_type": "paper",
+      "target_id": "2605.00001",
+      "title": "Embodied Navigation with World Models",
+      "score": 0.82,
+      "confidence": 0.64,
+      "action": "read_now",
+      "why": "High alignment with embodied navigation query."
+    },
+    {
+      "target_type": "paper",
+      "target_id": "2605.00002",
+      "title": "Graph Diffusion for Protein Design",
+      "score": 0.79,
+      "confidence": 0.62,
+      "action": "watch",
+      "why": "Rising interest in protein design workflows."
+    },
+    {
+      "target_type": "paper",
+      "target_id": "2605.00004",
+      "title": "Cross-domain Robotics",
+      "score": 0.76,
+      "confidence": 0.6,
+      "action": "watch",
+      "why": "Cross-domain transfer signals are growing."
+    }
+  ],
+  "research_direction_forecasts": [
+    {"direction": "embodied navigation", "forecast_score": 0.68},
+    {"direction": "protein design", "forecast_score": 0.65}
+  ]
+}

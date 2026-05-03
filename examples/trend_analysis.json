@@ -1,0 +1,60 @@
+{
+  "run_id": "2026-05-02_daily",
+  "window_days": 7,
+  "community_trends": [
+    {
+      "community_id": "C0",
+      "size": 3,
+      "lifecycle_event": "growth",
+      "top_categories": [
+        {"category": "cs.RO", "count": 2},
+        {"category": "cs.AI", "count": 1}
+      ],
+      "representative_papers": [
+        {"paper_id": "p1", "title": "Embodied Navigation with World Models", "arxiv_id": "2605.00001"},
+        {"paper_id": "p4", "title": "Cross-domain Robotics", "arxiv_id": "2605.00004"}
+      ],
+      "growth_7d": 0.6,
+      "novelty_score": 0.55,
+      "bridge_pressure": 0.2,
+      "recency_score": 0.9,
+      "emergence_score": 0.62,
+      "label": "emerging"
+    },
+    {
+      "community_id": "C1",
+      "size": 2,
+      "lifecycle_event": "birth",
+      "top_categories": [
+        {"category": "cs.LG", "count": 1},
+        {"category": "q-bio.BM", "count": 1}
+      ],
+      "representative_papers": [
+        {"paper_id": "p2", "title": "Graph Diffusion for Protein Design", "arxiv_id": "2605.00002"}
+      ],
+      "growth_7d": null,
+      "novelty_score": 0.9,
+      "bridge_pressure": 0.3,
+      "recency_score": 0.88,
+      "emergence_score": 0.68,
+      "label": "emerging"
+    }
+  ],
+  "category_trends": [
+    {"category": "cs.RO", "current_count": 3, "history_avg_count": 2.0, "delta": 1.0, "growth": 0.5},
+    {"category": "cs.AI", "current_count": 2, "history_avg_count": 1.0, "delta": 1.0, "growth": 1.0},
+    {"category": "cs.LG", "current_count": 2, "history_avg_count": 1.0, "delta": 1.0, "growth": 1.0},
+    {"category": "q-bio.BM", "current_count": 2, "history_avg_count": 0.5, "delta": 1.5, "growth": 3.0}
+  ],
+  "bridge_author_trends": [
+    {
+      "author": "alice chen",
+      "current_bridging_score": 0.31,
+      "history_avg_bridging_score": 0.18,
+      "delta": 0.13,
+      "betweenness": 0.42,
+      "cross_community_edge_ratio": 0.6
+    }
+  ],
+  "warnings": []
+}

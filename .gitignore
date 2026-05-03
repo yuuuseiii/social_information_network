@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.dist-info/
+.venv/
+.venv*/
+.env
+
+output/
+.test_outputs/
+
+*.png
