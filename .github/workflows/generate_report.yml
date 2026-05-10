@@ -1,0 +1,31 @@
+name: Generate Daily Report
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * *'
+
+jobs:
+  generate-report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -e ".[dev]"
+
+      - name: Generate report
+        run: python daily_report_skill.py
+
+      - name: Upload generated results
+        uses: actions/upload-artifact@v4
+        with:
+          name: skill-e-report-results
+          path: output/
